@@ -131,14 +131,8 @@ export default {
     }
   },
   name: 'App',
-  components: {
-    //HelloWorld
-  },
-  computed:{
-      
-  },
-  methods:{
-    
+
+  methods:{ 
     selectResponse(e){
       this.correct = true;
       this.next = false;
